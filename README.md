@@ -1,4 +1,12 @@
 # Jade HTML5 Boilerplate
+Forked from https://github.com/dmotz/jade-html5-boilerplate/blob/master/layout.jade
+
+What I want to add is the integration with the extends syntax that allow to extends this layout with other jade template, without having to modify it 
+
+See this post to know what extends is 
+http://www.devthought.com/code/use-jade-blocks-not-layouts/
+
+
 > Simple port of [HTML5 Boilerplate](http://html5boilerplate.com) to [Jade](http://jade-lang.com)
 
 [Dan Motzenbecker](https://twitter.com/dcmotz)
