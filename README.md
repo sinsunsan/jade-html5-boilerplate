@@ -1,4 +1,5 @@
 # Jade HTML5 Boilerplate
+
 Forked from https://github.com/dmotz/jade-html5-boilerplate/blob/master/layout.jade
 
 What I want to add is the integration with the extends syntax that allow to extends this layout with other jade template, without having to modify it 
