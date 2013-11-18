@@ -1,3 +1,4 @@
+-page = "";
 doctype
 //if lt IE 7
   <html class="no-js lt-ie9 lt-ie8 lt-ie7">
@@ -7,16 +8,19 @@ doctype
   <html class="no-js lt-ie9">
 //[if gt IE 8]><!
 html.no-js
-  //<![endif]
-  head
-    meta(charset='utf-8')
-    meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    title
-    meta(name='description', content='')
-    meta(name='viewport', content='width=device-width, initial-scale=1')
-    //link(rel='stylesheet', href='stylesheets/normalize.css')
-    //-script(src='javascripts/vendor/modernizr-2.6.2.min.js')  
-    block head
-    
-  body
-    block content
+
+block vars 
+
+//<![endif]
+head
+  meta(charset='utf-8')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge')
+  title
+  meta(name='description', content='')
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  //link(rel='stylesheet', href='stylesheets/normalize.css')
+  //-script(src='javascripts/vendor/modernizr-2.6.2.min.js')  
+  block head
+  
+body(class="#{page}")
+  block content
